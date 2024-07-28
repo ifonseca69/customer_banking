@@ -19,7 +19,7 @@ def create_cd_account(balance, interest_rate, months):
     # ADD YOUR CODE HERE
 
     user_cd_account = Account(balance, 0)
-    initial_cd_balance = float(balance)
+    initial_cd_balance = float(user_cd_account)
     apr = float(interest_rate)
     months = int(months)
 
