@@ -24,7 +24,7 @@ def create_savings_account(balance, interest_rate, months):
     # ADD YOUR CODE HERE
     user_balance = Account(balance, 0)
     
-    initial_balance = float(user_balance)
+    initial_balance = float(user_balance.balance)
     apr = float(interest_rate)
     months = int(months)
   
@@ -39,10 +39,10 @@ def create_savings_account(balance, interest_rate, months):
 
     # Pass the updated_balance to the set balance method using the instance of the SavingsAccount class.
     # ADD YOUR CODE HERE
-    initial_balance.set_balance(updated_savings_balance)
+    user_balance.set_balance(updated_savings_balance)
     # Pass the interest_earned to the set interest method using the instance of the SavingsAccount class.
     # ADD YOUR CODE HERE
-    interest_earned.set_interest(interest_earned)
+    user_balance.set_interest(interest_earned)
 
     # Return the updated balance and interest earned.
     # ADD YOUR CODE HERE
