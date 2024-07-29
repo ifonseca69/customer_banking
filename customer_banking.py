@@ -25,7 +25,7 @@ def main():
     print('Here are the details of the saving account.')
     print("Interest earned is:$", format(interest_earned, ',.2f'))
     print("The new saving balance is: $", format(updated_savings_balance, ',.2f'))
-    
+    print("Interest length projected for a given month is ", format(savings_maturity))
 
 
     # Prompt the user to set the CD balance, interest rate, and months for the CD account.
@@ -43,6 +43,7 @@ def main():
     print('Here are the details of the CD account.')
     print("Interest Earned:$", format(interest_earned, ',.2f'))
     print("The new cd balance is: $", format(updated_cd_balance, ',.2f'))
+    print("interest length projected for given months is ", format(cd_maturity))
 
   
 
